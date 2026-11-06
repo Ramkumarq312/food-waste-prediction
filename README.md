@@ -3,10 +3,10 @@
 A Machine Learning project to predict food waste in hostels, mess, and events.
 
 ## Problem
-Daily mess / hostel la evlo food waste aagum nu theriyaama neraya food waste aaguthu.
+A large amount of food is wasted daily in hostels and mess halls because the exact food requirement is not known in advance.
 
 ## Solution
-Attendance, Food Prepared, Menu Type vachu ML model waste ah predict pannum.
+This system uses a Machine Learning model to predict food waste based on attendance, quantity of food prepared, and menu type.
 
 ## Tech Used
 - Python
@@ -14,14 +14,7 @@ Attendance, Food Prepared, Menu Type vachu ML model waste ah predict pannum.
 - Streamlit
 
 ## How to Run
+```bash
 pip install -r requirements.txt
 python train_model.py
 python -m streamlit run app.py
-
-## Output
-- Predicted Waste in Kg
-- Waste Percentage
-- High / Low Waste Alert
-
-## Created By
-Ramkumar
